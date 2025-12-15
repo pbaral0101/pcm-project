@@ -1,0 +1,15 @@
+.animation{
+    width: 100px;
+    background-color: lightcoral;
+    margin: 1rem 0;
+    padding:0.5rem;
+    position: relative;
+    animation-name: bcsit;
+    animation-duration: 6s;
+    animation-iteration-count: infinite;
+
+}
+
+
+@keyframes bcsit {
+)

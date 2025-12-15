@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>HTML Canvas Drwaing Example</h1>
+    <canvas id="myCanvas" width="500" height="300"></canvas>
+        <script>
+            const canvas= document.getElementById('myCanvas');
+                 const ctx= canvas.getContext('2d');   
+                    // get 2d rendering context
+
+            ctx.fillStyle='lightblue';
+            ctx.fillRect(50,50,100,75);
+
+// x,y,width,height(draws a filled rectangle)
+
+            ctx.fillstyle='orange';
+            ctx.fillRect(400,100,200,90);
+
+            // x,y,width,height(draws a filled rectangle) left top wqidth height
+
+            ctx.strokeStyle='green';     
+            ctx.lineWidth=3;
+            ctx.strokeRect(180,50,100,75);
+
+            // x,y,width , height (draws a rectangle outline)
+
+
+
+            ctx.beginPath();
+            // start a new path
+            ctx.arc(350,90,40,0,Math.PI*2 ,false);
+            // x,y,radius,startAngle,endAngle,anticlockwise
+            ctx.fillStyle='green';
+            ctx.fill()= 'green';
+            ctx.strokeStyle='black';
+            ctx.stroke();
+
+
+
+
+
+            
+
+
+
+
+
+                    
+
+
+
+
+
+
+
+
+
+
+        
+
+        </script>
+</body>
+</html>
